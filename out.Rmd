@@ -1,0 +1,22 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+# My First Knitr Document
+
+## Introduction
+
+Let's first stimulate some data.
+
+```{r simulatedata, echo = TRUE}
+    x <- rnorm(100); y <- x + rnorm(100, sd = 0.5)
+```
+
+Here is a scatterplot of the data.
+
+```{r scatterplot, fig.height= 4, fig.w}
+par(mar = c(5, 4, 1, 1), las = 1)
+plot(x, y, main = "My Simulated Data")
+```
+```

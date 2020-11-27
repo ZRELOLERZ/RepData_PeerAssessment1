@@ -1,0 +1,6 @@
+"0","    hist(x = data_summary$total_steps_per_day,"
+"0","         main = ""Histogram Showing The Total Number of Steps Taken Daily"","
+"0","         xlab = ""Total Steps Per Day"","
+"0","         breaks = 20,"
+"0","         col = ""purple"","
+"0","         )"

@@ -1,0 +1,3 @@
+"0","    data_summary <- data[, list(total_steps_per_day = sum(steps, na.rm = TRUE)), by = date]"
+"0","    mean_steps_per_day <- round(mean(data_summary$total_steps_per_day, na.rm = TRUE), 2)"
+"0","    median_steps_per_day <- paste(round(median(data_summary$total_steps_per_day, na.rm = TRUE), 2))"
