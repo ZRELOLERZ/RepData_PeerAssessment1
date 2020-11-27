@@ -1,0 +1,8 @@
+"0","    data_summary_by_interval = data[, list(average_steps_by_interval = mean(steps, na.rm = TRUE)), by = interval]"
+"0",""
+"0","    plot(x = data_summary_by_interval$interval,"
+"0","         y = data_summary_by_interval$average_steps_by_interval,"
+"0","         main = ""Average Number of Steps by Five(5) Minute Interval"","
+"0","         xlab = ""Interval"","
+"0","         ylab = ""Average Number of Steps"","
+"0","         type = ""l"")"

@@ -1,0 +1,4 @@
+"0","  # Create data summary of altered dataset"
+"0","  altered_data_summary <- fixed_data_na_removed[, list(total_steps_per_day = sum(steps, na.rm = TRUE)), by = date]"
+"0","  mean_steps_per_day <- round(mean(altered_data_summary$total_steps_per_day, na.rm = TRUE), 2)"
+"0","  median_steps_per_day <- paste(round(median(altered_data_summary$total_steps_per_day, na.rm = TRUE), 2)) "

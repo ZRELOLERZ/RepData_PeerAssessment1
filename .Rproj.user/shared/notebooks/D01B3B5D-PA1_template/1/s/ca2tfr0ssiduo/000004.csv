@@ -1,0 +1,2 @@
+"0","    "
+"0","    max_steps_row = data_summary_by_interval[which.max(data_summary_by_interval$average_steps_by_interval),]"

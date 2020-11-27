@@ -1,0 +1,6 @@
+"0","  ggplot(data = altered_data_summary_by_interval, aes(interval, average_steps_by_interval)) +"
+"0","  geom_line(color = ""steelblue"", size = 0.5) +"
+"0","  labs(title = ""Panel Grid Showing the Average Steps by Interval on a Weekday vs. Weekend"","
+"0","       x = 'Interval',"
+"0","       y = 'Average Steps By Interval') +"
+"0","  facet_grid(day_type ~ .)"

@@ -1,0 +1,25 @@
+"0","    library(data.table)"
+"0","    library(ggplot2)"
+"2","package ‘ggplot2’ was built under R version 4.0.3"
+"0","    library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:data.table’:
+
+    between, first, last
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","    raw_data <- read.csv(""activity/activity.csv"")"
+"0","    data <- data.table(raw_data)"
